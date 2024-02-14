@@ -1,8 +1,10 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, redirect, render
 
-from .models import Blog, Category, Comment
+from .models import Blog, Category, Comment, FeaturedCar
 from django.db.models import Q
+from django.shortcuts import render
+
 
 def posts_by_category(request, category_id):
     # Fetch the posts that belongs to the category with the id category_id
@@ -11,10 +13,10 @@ def posts_by_category(request, category_id):
     # try:
     #     category = Category.objects.get(pk=category_id)
     # except:
-    #     # redirect the user to homepage
+    #     # redirect the user to the homepage
     #     return redirect('home')
     
-    # Use get_object_or_404 when you want to show 404 error page if the category does not exist
+    # Use get_object_or_404 when you want to show a 404 error page if the category does not exist
     category = get_object_or_404(Category, pk=category_id)
     
     context = {
@@ -33,7 +35,7 @@ def blogs(request, slug):
         comment.save()
         return HttpResponseRedirect(request.path_info)
     
-      # Comments
+    # Comments
     comments = Comment.objects.filter(blog=single_blog)
     comment_count = comments.count()
     
@@ -41,9 +43,14 @@ def blogs(request, slug):
         'single_blog': single_blog,
         'comments': comments,
         'comment_count': comment_count,
-        
-        }
+    }
     return render(request, 'blogs.html', context)
+
+def home(request):
+    featured_cars = FeaturedCar.objects.all()
+    posts = Blog.objects.all()  # Replace with your existing code to fetch blog posts
+
+    return render(request, 'home.html', {'featured_cars': featured_cars, 'posts': posts})
 
 def search(request):
     keyword = request.GET.get('keyword')
@@ -53,7 +60,5 @@ def search(request):
     context = {
         'blogs': blogs,
         'keyword': keyword,
-        'keyword': keyword,
     }
     return render(request, 'search.html', context)
-    

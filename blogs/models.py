@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.text import slugify
 
 
 class Category(models.Model):
@@ -35,6 +36,27 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
+class FeaturedCar(models.Model):
+    model = models.CharField(max_length=100)
+    slug = models.SlugField(max_length=150, unique=True, blank=True)
+    year = models.IntegerField()
+    main_traits = models.TextField()
+    price_range = models.CharField(max_length=50)
+    image = models.ImageField(upload_to='images/')
+    description = models.TextField()
+    time_period = models.CharField(max_length=50)
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="Draft")
+    is_featured = models.BooleanField(default=False)
+   
+
+    def save(self, *args, **kwargs):
+        # Auto-generate slug when saving if it's not provided
+        if not self.slug:
+            self.slug = slugify(self.model)
+        super().save(*args, **kwargs)
+        
+    def __str__(self):
+        return self.model
     
     
 class Comment(models.Model):
