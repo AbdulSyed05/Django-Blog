@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-n8^@1$ll9wyo)$h5h+5xq-a7a!vnn&@5(gi#!3*9#t@=nqc&al
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [False]
+ALLOWED_HOSTS = ['.herokuapp.com']
 
 
 # Application definition
@@ -87,6 +88,9 @@ DATABASES = {
     }
 }
 
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get("postgres://acvmzgjo:XM4Ho4jWaAIB9ei6NAvX0SAEkQTjOM9n@trumpet.db.elephantsql.com/acvmzgjo"))
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
