@@ -1,3 +1,4 @@
+import poplib
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, redirect, render
 
@@ -47,9 +48,12 @@ def blogs(request, slug):
     return render(request, 'blogs.html', context)
 
 def home(request):
-    featured_cars = FeaturedCar.objects.all()
-    posts = Blog.objects.all()  # Replace with your existing code to fetch blog posts
+    featured_cars = FeaturedCar.objects.filter(is_featured=True, status='Published')
+    posts = Blog.objects.all()
 
+    # Debug prints
+    print("Featured Cars:", featured_cars)
+    
     return render(request, 'home.html', {'featured_cars': featured_cars, 'posts': posts})
 
 def search(request):
