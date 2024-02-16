@@ -1,1 +1,1 @@
-web: gunicorn django-blog.wsgi:application
+web: waitress-serve --port=$PORT django-blog.wsgi:application
