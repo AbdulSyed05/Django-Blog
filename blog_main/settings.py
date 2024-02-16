@@ -93,7 +93,7 @@ DATABASES = {
 }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL", "postgres://acvmzgjo:XM4Ho4jWaAIB9ei6NAvX0SAEkQTjOM9n@trumpet.db.elephantsql.com/acvmzgjo"))
+    'default': dj_database_url.parse("postgres://acvmzgjo:XM4Ho4jWaAIB9ei6NAvX0SAEkQTjOM9n@trumpet.db.elephantsql.com/acvmzgjo")
 }
 
 
