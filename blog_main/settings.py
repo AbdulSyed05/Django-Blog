@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap4',
     'dashboards',
+    'cloudinary_storage',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -144,3 +146,10 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR /'media'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'ddn3t5hx2',
+    'API_KEY': '572175464441644',
+    'API_SECRET': 'dCx-b5bV8vVirmyRDpGkCb3jnG0',
+}
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
