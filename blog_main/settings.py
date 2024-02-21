@@ -102,6 +102,13 @@ DATABASES = {
     }
 }
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'ddn3t5hx2',
+    'API_KEY': '572175464441644',
+    'API_SECRET': 'dCx-b5bV8vVirmyRDpGkCb3jnG0',
+}
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+
 
 
 
