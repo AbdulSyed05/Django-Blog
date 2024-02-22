@@ -28,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-n8^@1$ll9wyo)$h5h+5xq-a7a!vnn&@5(gi#!3*9#t@=nqc&al'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['djangobblog-3840dbf28a3e.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['djangobblog-3840dbf28a3e.herokuapp.com', 'localhost:8000/', '127.0.0.1']
 
 
 # Application definition
@@ -144,9 +144,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR /'static'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    'blog_main/static',
 ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
