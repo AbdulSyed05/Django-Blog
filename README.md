@@ -2,8 +2,8 @@
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
 
-    **[View the live project here.](https://github.com/AbdulSyed05/Django-Blog)**
-    
+    **[View the live project here.](https://djangobblog-3840dbf28a3e.herokuapp.com/)**
+
     * [Wireframes](#wireframes)
     * [Agile Methodology](#agile-methodology)
     * [Typography](#typography)
