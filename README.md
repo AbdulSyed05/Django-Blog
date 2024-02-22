@@ -1,6 +1,9 @@
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
+
+    **[View the live project here.](https://github.com/AbdulSyed05/Django-Blog)**
+    
     * [Wireframes](#wireframes)
     * [Agile Methodology](#agile-methodology)
     * [Typography](#typography)
