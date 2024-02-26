@@ -53,10 +53,7 @@ INSTALLED_APPS = [
     'dashboards',
     'cloudinary_storage',
     'cloudinary',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-]
+    
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
