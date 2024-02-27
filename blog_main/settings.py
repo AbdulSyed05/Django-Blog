@@ -45,14 +45,14 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'blogs',
+    'django.contrib.staticfiles',
     'assignments',
     'crispy_forms',
     'crispy_bootstrap4',
     'dashboards',
     'cloudinary_storage',
-    'django.contrib.staticfiles',
     'cloudinary',
+    'blogs',
     
     
 ]
@@ -70,6 +70,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'blog_main.urls'
