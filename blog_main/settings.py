@@ -47,12 +47,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'assignments',
+    'blogs',
     'crispy_forms',
     'crispy_bootstrap4',
     'dashboards',
     'cloudinary_storage',
     'cloudinary',
-    'blogs',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -174,7 +174,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#MEDIA_URL = '/media/'
+#MEDIA_URL = '/media/'-
 #MEDIA_ROOT = BASE_DIR /'media'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
