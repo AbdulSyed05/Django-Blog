@@ -53,6 +53,9 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'cloudinary',
     'blogs',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     
     
 ]
@@ -72,6 +75,7 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'blog_main.urls'
