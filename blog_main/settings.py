@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['djangobblog-4328bed47b45.herokuapp.com', 'localhost', '127.0.0.1', '8000-abdulsyed05-djangoblog-lfjd1qfhcmt.ws-eu108.gitpod.io']
 
-CSRF_TRUSTED_ORIGINS = ["https://8000-abdulsyed05-djangoblog-lfjd1qfhcmt.ws-eu108.gitpod.io"]
+CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:8000"]
 
 
 # Application definition
