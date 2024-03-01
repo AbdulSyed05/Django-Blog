@@ -66,7 +66,7 @@ Explain agile approach to your project (itterations, user stories, tasks,accepta
 ### Typography
 Explain font you've used for your project
 ### Colour Scheme
-<img src ="media/images/coolors.png>
+![screenshot](media/images/coolors.png)
 ### DataBase Diagram
 Image of the database diagram for your project, you can name your database models as well and how they are connected
 
