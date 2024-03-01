@@ -74,7 +74,7 @@ Explain font you've used for your project
 
 ### Colour Scheme
 
-![coolors](media/images/coolors.png)
+![coolors](media/images/coolors.jpg)
 
 ### DataBase Diagram
 Image of the database diagram for your project, you can name your database models as well and how they are connected
