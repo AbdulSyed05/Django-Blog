@@ -61,15 +61,19 @@ First-time Visitor:
 - As a site owner, I want to customize the overall look and feel of the blog site.
 
 ### Wireframes
+
 Attach wireframes in this section
 
 ### Agile Methodology
+
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
 
 ### Typography
+
 Explain font you've used for your project
 
 ### Colour Scheme
+
 ![screenshot](media/images/coolors.png)
 
 ### DataBase Diagram
