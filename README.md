@@ -59,50 +59,66 @@ First-time Visitor:
 - As a site owner, I want to have access to user analytics and engagement metrics.
 - As a site owner, I want the ability to moderate and manage user comments and interactions.
 - As a site owner, I want to customize the overall look and feel of the blog site.
+
 ### Wireframes
 Attach wireframes in this section
+
 ### Agile Methodology
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
+
 ### Typography
 Explain font you've used for your project
+
 ### Colour Scheme
 ![screenshot](media/images/coolors.png)
+
 ### DataBase Diagram
 Image of the database diagram for your project, you can name your database models as well and how they are connected
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+
 ## Technologies Used
 List of technologies used for your project
+
 ## Testing
 Important part of your README!!!
+
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
+
 ### Browser Compatibility
 Check compatability with different browsers (Firefox, Edge, Chrome)
+
 ### Responsiveness
 Screenshots of the responsivness, pick few devices
+
 ### Code Validation
 Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
 --- | --- | :---:
 paste here you user story | what is visible to the user and what action they should perform | &check;
 - attach screenshot
+
 ### Manual Testing features
 Test all your features, you can use the same approach 
 | Status | feature
 |:-------:|:--------|
 | &check; | description
 - attach screenshot
+
 ### Automated testing
 If you created automated tests, insert screenshoots of your coverage and number of tests
+
 ## Bugs
 List of bugs and how did you fix them, you can create simple table
 | Bug | Fix
 |:-------:|:--------|
 |   |    |
+
 ## Deployment
 This website is deployed to Heroku from a GitHub repository, the following steps were taken:
 
