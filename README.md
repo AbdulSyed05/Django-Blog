@@ -5,6 +5,9 @@
 🚀 Elevate your blogging experience with our dynamic and user-friendly Django-powered blog platform. Whether you're a content creator or a tech enthusiast, our app empowers you to craft, manage, and share your ideas effortlessly. Dive into the world of modern web development and showcase your content with style. Let's make blogging exciting again! 🌐✨
 
 
+
+**[View the live project here.](https://djangobblog-4328bed47b45.herokuapp.com/)**
+
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
@@ -35,7 +38,27 @@
 ## Design & Planning:
 
 ### User Stories
-Write your user stories in this section
+First-time Visitor:
+- As a first-time visitor, I want to easily understand the purpose of the blog site.
+- As a first-time visitor, I want to navigate the site easily and find a list of recent blog posts.
+- As a first-time visitor, I want to view individual blog posts with a clear layout and readable content.
+- As a first-time visitor, I want the option to sign up for an account to engage more with the site.
+
+
+#### Registered User:
+- As a registered user, I want to log in to my account securely.
+- As a registered user, I want a personalized dashboard displaying my profile information.
+- As a registered user, I want to create, edit, or delete my own blog posts.
+- As a registered user, I want to be able to comment on blog posts and interact with other users.
+- As a registered user, I want to customize my profile settings and preferences.
+
+
+#### Site Owner:
+- As a site owner, I want to have administrative access to manage all aspects of the blog.
+- As a site owner, I want to be able to create, edit, or delete any blog post on the site.
+- As a site owner, I want to have access to user analytics and engagement metrics.
+- As a site owner, I want the ability to moderate and manage user comments and interactions.
+- As a site owner, I want to customize the overall look and feel of the blog site.
 ### Wireframes
 Attach wireframes in this section
 ### Agile Methodology
