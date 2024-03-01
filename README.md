@@ -135,3 +135,5 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 List of used resources for your website (text, images, snippets of code, projects....)
 ## Acknowledgment
 Mention people who helped you with your project(mentor, colleagues...)
+
+[def]: media/images/coolors.png
