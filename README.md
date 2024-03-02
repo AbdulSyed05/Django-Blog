@@ -81,7 +81,7 @@ Image of the database diagram for your project, you can name your database model
 
 ## Features:
 
-This section outlines the key features and functionalities of the Django Blog app.
+## This section outlines the key features and functionalities of the Django Blog app.
 
 ### 1. User Authentication
    - Users can create accounts, log in, and log out securely.
