@@ -80,7 +80,63 @@ Explain font you've used for your project
 Image of the database diagram for your project, you can name your database models as well and how they are connected
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+
+This section outlines the key features and functionalities of the Django Blog app.
+
+### 1. User Authentication
+   - Users can create accounts, log in, and log out securely.
+   - Passwords are hashed for security.
+
+### 2. CRUD Operations for Blog Posts
+   - **Create:** Authors can create new blog posts.
+   - **Read:** Users can view published blog posts.
+   - **Update:** Authors can edit and update existing posts.
+   - **Delete:** Authors can delete posts they created.
+
+### 3. Navigation Bar
+   - User-friendly navigation bar for easy access to different sections of the app such as Sports, Politics, Technology, Business, Science, Health and Featured Cars.
+
+   - Dynamic links to categories, and other relevant pages.
+
+### 4. Footer
+   - Informative footer providing links to important pages, contact information, etc.
+
+### 5. Login Page
+   - Secure login page with validation checks.
+   - Remember me and forgot password functionality for enhanced user experience.
+
+### 6. Sign Up Page
+   - User-friendly registration page with necessary form fields.
+
+### 7. 404 Page
+   - Customized 404 page for a better user experience.
+   - Helpful error messages and suggestions for lost users.
+
+### 8. Categories 
+   - Organize posts by assigning categories.
+   - Users can easily filter content based on categories.
+
+### 9. Commenting System
+   - Readers can leave comments on blog posts.
+
+### 10. Responsive Design
+   - The app is built with a responsive design, ensuring a seamless experience across devices.
+
+### 11. Search Functionality
+   - Users can search for specific posts using a robust search feature.
+
+### 12. Social Media Integration
+   - Added Social Media links
+
+### 13. Featured Post
+   - Highlight a selected post as the "Featured Post" on the homepage.
+   - Attract attention to specific content or announcements.
+
+### 14. Recent Articles
+   - Display a section showcasing the most recent blog articles.
+   - Allow users to stay updated on the latest content.
+
+
 
 ## Technologies Used
 List of technologies used for your project
