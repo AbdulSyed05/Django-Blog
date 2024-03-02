@@ -136,10 +136,22 @@ Image of the database diagram for your project, you can name your database model
    - Display a section showcasing the most recent blog articles.
    - Allow users to stay updated on the latest content.
 
-
-
 ## Technologies Used
-List of technologies used for your project
+- [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
+- [LucidChart](https://www.lucidchart.com/pages/) was used to design the database schema.
+- [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
+- [CSS](https://en.wikipedia.org/wiki/CSS)  was used to style the site.
+- [Django](https://www.djangoproject.com/) was the framework that was used.
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), django is a python framework.
+- [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) was also used to style the site.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used for interactiveness.
+- [Gitpod](https://www.gitpod.io/about) was used to create this site and then push everything to github.
+- [Heroku](https://en.wikipedia.org/wiki/Heroku) is used to host this site.
+- [Github](https://en.wikipedia.org/wiki/GitHub) was used to store the code.
+- [Git](https://en.wikipedia.org/wiki/Git) was used for version control.
+- [Cloudinary](https://cloudinary.com/) was used to store the images.
+- [ElephantSQL](https://www.elephantsql.com/) was used to store the database.
+- [Grammarly](https://app.grammarly.com/) was used to check typography.
 
 ## Testing
 Important part of your README!!!
