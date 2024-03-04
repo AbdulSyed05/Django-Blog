@@ -74,6 +74,9 @@ First-time Visitor:
 
 ![All Posts](media/images/Post%20Page.png)
 
+### Mobile Wireframes
+![Mobile](media/images/Mobile%20Wireframes.png)
+
 ### Agile Methodology
 
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
