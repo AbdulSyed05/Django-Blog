@@ -60,7 +60,7 @@ First-time Visitor:
 - As a site owner, I want the ability to moderate and manage user comments and interactions.
 - As a site owner, I want to customize the overall look and feel of the blog site.
 
-### Wireframes
+### Desktop Wireframes
 
 ![Homepage](media/images/Home%20Page.png)
 
