@@ -62,7 +62,17 @@ First-time Visitor:
 
 ### Wireframes
 
-Attach wireframes in this section
+![Homepage](media/images/Home%20Page.png)
+
+![Login Page](media/images/Login%20Page.png)
+
+![Dashboard Page](media/images/Dashboard%20Page.png)
+
+![Category page](media/images/Categories%20Page.png)
+
+![Users Page](media/images/Users%20Page.png)
+
+![All Posts](media/images/Post%20Page.png)
 
 ### Agile Methodology
 
