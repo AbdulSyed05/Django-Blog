@@ -4,7 +4,7 @@
 
 🚀 Elevate your blogging experience with our dynamic and user-friendly Django-powered blog platform. Whether you're a content creator or a tech enthusiast, our app empowers you to craft, manage, and share your ideas effortlessly. Dive into the world of modern web development and showcase your content with style. Let's make blogging exciting again! 🌐✨
 
-
+![Responsive](media/images/Responsive.png)
 
 **[View the live project here.](https://djangobblog-4328bed47b45.herokuapp.com/)**
 
