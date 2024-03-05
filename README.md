@@ -185,7 +185,7 @@ First-time Visitor:
 
 ![Dashboard](media/images/Tabletwireframe3.png)
 
-![Home]
+![Categories](media/images/Tabletwireframe4.png)
 
 
 
