@@ -242,7 +242,7 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 List of used resources for your website (text, images, snippets of code, projects....)
 ## Acknowledgment
 
-- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship.
+- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship 😊.
 
 - I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
 
