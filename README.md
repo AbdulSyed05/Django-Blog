@@ -141,25 +141,19 @@ First-time Visitor:
 
 ![Recent](media/images/Recentarticles.png)
 
-### 12. All Categories
-
-- Displays all categories
-
-![categories](media/images/Allcategories.png)
-
-### 13. All Posts
+### 12. All Posts
 
 - Displays all posts
 
 ![posts](media/images/Allposts.png)
 
-### 14. All Users
+### 13. All Users
 
 - Displays all users
 
 ![Alluser](media/images/Allusers.png)
 
-### 15. Dashboard
+### 14. Dashboard
 
 - Displays Dashboard including the categories
 - Displays Users, Categories, Posts
