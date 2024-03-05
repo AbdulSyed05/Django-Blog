@@ -283,7 +283,7 @@ List of bugs and how did you fix them, you can create simple table
 |:-------:|:--------|
 |   |    |
 
-## Deployment
+## Deployment 🚀
 This website is deployed to Heroku from a GitHub repository, the following steps were taken:
 
 #### Creating Repository on GitHub
