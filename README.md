@@ -245,7 +245,8 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 
 - [CodeInstitute](https://learn.codeinstitute.net/) for their walkthrough project, which guided me with website build especially for publishing posts, comments and likes section which I code along with the video with few adjustments.
 
-- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) videos from **codemy**,  **djangolessons**
+- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) Corey Schafer 
+ videos from **codemy**,  **djangolessons**
 
 - [Allauth](https://django-allauth.readthedocs.io/en/latest/) for their documentation which was helpfull in creating user authentication.
 
