@@ -187,7 +187,7 @@ First-time Visitor:
 
 ![Categories](media/images/Tabletwireframe4.png)
 
-## Future Features
+## Future Features 🚀
 - There are 3 features I would like to implement in the next iteration that would improve user experience and attract more traffic to my website
 
 - Reset password if they forgot
