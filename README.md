@@ -177,6 +177,19 @@ First-time Visitor:
 ### Mobile Wireframes
 ![Mobile](media/images/Mobile%20Wireframes.png)
 
+### Tablet Wireframes
+
+![Home](media/images/Tabletwireframe1.png)
+
+![Login](media/images/Tabletwireframe2.png)
+
+![Dashboard](media/images/Tabletwireframe3.png)
+
+![Home]
+
+
+
+
 ### Agile Methodology
 
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
