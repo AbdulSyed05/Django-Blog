@@ -264,4 +264,4 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 
 - I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging, Deployment also for general advices. 
 
-[def]: media/images/coolors.png
+[Back to the top](#)
