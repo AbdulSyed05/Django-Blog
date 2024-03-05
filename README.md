@@ -239,7 +239,20 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 - Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
 ## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
+- [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
+
+- [W3schools](https://www.w3schools.com/) this was great for looking up forgotten **CSS** syntax and how to use it.
+
+- [CodeInstitute](https://learn.codeinstitute.net/) for their walkthrough project, which guided me with website build especially for publishing posts, comments and likes section which I code along with the video with few adjustments.
+
+- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) videos from **codemy**,  **djangolessons**
+
+- [Allauth](https://django-allauth.readthedocs.io/en/latest/) for their documentation which was helpfull in creating user authentication.
+
+- [Djangoforbeginners](https://djangoforbeginners.com/) for providing useful information abut basic concepts and setup for django.
+
+- [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
+
 ## Acknowledgment
 
 - I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship 😊.
