@@ -262,6 +262,6 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 
 - I would also like to thank our cohort facilitator Marko Tot 😊, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
 
-- I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging and also for general advices. 
+- I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging, Deployment also for general advices. 
 
 [def]: media/images/coolors.png
