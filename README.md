@@ -149,7 +149,7 @@ Image of the database diagram for your project, you can name your database model
    - Display a section showcasing the most recent blog articles.
    - Allow users to stay updated on the latest content.
 
-## Technologies Used
+## Tools & Technologies Used
 - [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
 - [LucidChart](https://www.lucidchart.com/pages/) was used to design the database schema.
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
@@ -165,6 +165,8 @@ Image of the database diagram for your project, you can name your database model
 - [Cloudinary](https://cloudinary.com/) was used to store the images.
 - [ElephantSQL](https://www.elephantsql.com/) was used to store the database.
 - [Grammarly](https://app.grammarly.com/) was used to check typography.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Cloudinary](https://cloudinary.com) used for online static file storage.
 
 ## Testing
 Important part of your README!!!
