@@ -60,38 +60,6 @@ First-time Visitor:
 - As a site owner, I want the ability to moderate and manage user comments and interactions.
 - As a site owner, I want to customize the overall look and feel of the blog site.
 
-### Desktop Wireframes
-
-![Homepage](media/images/Home%20Page.png)
-
-![Login Page](media/images/Login%20Page.png)
-
-![Dashboard Page](media/images/Dashboard%20Page.png)
-
-![Category page](media/images/Categories%20Page.png)
-
-![Users Page](media/images/Users%20Page.png)
-
-![All Posts](media/images/Post%20Page.png)
-
-### Mobile Wireframes
-![Mobile](media/images/Mobile%20Wireframes.png)
-
-### Agile Methodology
-
-Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
-
-### Typography
-
-Explain font you've used for your project
-
-### Colour Scheme
-
-![Screenshot](media/images/coolors.png)
-
-### DataBase Diagram
-Image of the database diagram for your project, you can name your database models as well and how they are connected
-
 ## Features:
 ![Homepage](media/images/HomePage.png)
 
@@ -196,7 +164,40 @@ Image of the database diagram for your project, you can name your database model
 - Displays Dashboard including the categories
 - Displays Users, Categories, Posts
 
-   ![Dashboard](media/images/Dashboard.png)
+![Dashboard](media/images/Dashboard.png)
+
+### Desktop Wireframes
+
+![Homepage](media/images/Home%20Page.png)
+
+![Login Page](media/images/Login%20Page.png)
+
+![Dashboard Page](media/images/Dashboard%20Page.png)
+
+![Category page](media/images/Categories%20Page.png)
+
+![Users Page](media/images/Users%20Page.png)
+
+![All Posts](media/images/Post%20Page.png)
+
+### Mobile Wireframes
+![Mobile](media/images/Mobile%20Wireframes.png)
+
+### Agile Methodology
+
+Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
+
+### Typography
+
+Explain font you've used for your project
+
+### Colour Scheme
+
+![Screenshot](media/images/coolors.png)
+
+### DataBase Diagram
+Image of the database diagram for your project, you can name your database models as well and how they are connected
+
 
 ## Tools & Technologies Used
 - [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
