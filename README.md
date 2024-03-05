@@ -230,6 +230,17 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 - You will see the details for your database instance, in the URL section click on the copy icon to copy the database URL.
 - Head over to gitpod and create a **Database URL** environment variable in your env.py file and set it equal to the copied URL.
 
+### Cloudinary API
+
+This project uses the [Cloudinary API](https://cloudinary.com) to store media assets online, due to the fact that Heroku doesn't persist this type of data.
+
+To obtain your own Cloudinary API key, create an account and log in.
+- For *Primary interest*, you can choose *Programmable Media for image and video API*.
+- Optional: *edit your assigned cloud name to something more memorable*.
+- On your Cloudinary Dashboard, you can copy your **API Environment Variable**.
+- Be sure to remove the `CLOUDINARY_URL=` as part of the API **value**; this is the **key**.
+
+
 #### Deploying to Heroku.
 - Head back over to [heroku](https://www.heroku.com/) and click on your **app** and then go to the **Settings tab**
 - On the **settings page** scroll down to the **config vars** section and enter the **DATABASE_URL** which you will set equal to the elephantSQL URL, create **Secret key** this can be anything,
