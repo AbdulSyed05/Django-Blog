@@ -254,6 +254,8 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 
 - [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
 
+[Bootstrap](https://getbootstrap.com/)
+
 ## Acknowledgment
 
 - I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship 😊.
