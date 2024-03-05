@@ -254,7 +254,7 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 
 - [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
 
-[Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Acknowledgment
 
