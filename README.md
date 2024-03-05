@@ -238,6 +238,8 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 - Below that in the **search for a repository to connect to** search box enter the name of your repository that you created on **GitHub** and click **connect**
 - Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
+
+
 ## Credits
 - [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
 
@@ -255,6 +257,36 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 - [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
 
 - [Bootstrap](https://getbootstrap.com/) Used Bootstrap theme for my Blog app.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/AbdulSyed05/Django-Blog) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/AbdulSyed05/Django-Blog`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://abdulsyed05-djangoblog-lfjd1qfhcmt.ws-eu108.gitpod.io/)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AbdulSyed05/Django-Blog)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
 
 ## Acknowledgment
 
