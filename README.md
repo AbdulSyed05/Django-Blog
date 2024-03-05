@@ -170,7 +170,9 @@ Image of the database diagram for your project, you can name your database model
 Important part of your README!!!
 
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+![Desktop](media/images/Lighthouse%20Desktop.png)
+
+![Mobile](media/images/Lighthouse%20Mobile.png)
 
 ### Browser Compatibility
 Check compatability with different browsers (Firefox, Edge, Chrome)
