@@ -246,7 +246,7 @@ List of used resources for your website (text, images, snippets of code, project
 
 - I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
 
-- I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
+- I would also like to thank our cohort facilitator Marko Tot 😊, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
 
 - I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging and also for general advices. 
 
