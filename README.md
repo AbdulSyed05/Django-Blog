@@ -211,7 +211,7 @@ Explain font you've used for your project
 Image of the database diagram for your project, you can name your database models as well and how they are connected
 
 
-## Tools & Technologies Used
+## Tools & Technologies Used 🧑‍💻
 - [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
 - [LucidChart](https://www.lucidchart.com/pages/) was used to design the database schema.
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
@@ -277,7 +277,7 @@ Test all your features, you can use the same approach
 ### Automated testing
 If you created automated tests, insert screenshoots of your coverage and number of tests
 
-## Bugs
+## Bugs 🐛 😵
 List of bugs and how did you fix them, you can create simple table
 | Bug | Fix
 |:-------:|:--------|
@@ -324,7 +324,7 @@ To obtain your own Cloudinary API key, create an account and log in.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
 
 
-## Credits
+## Credits 💛
 - [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
 
 - [W3schools](https://www.w3schools.com/) this was great for looking up forgotten **CSS** syntax and how to use it.
@@ -404,7 +404,7 @@ You can fork this repository by using the following steps:
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 
-## Acknowledgment
+## Acknowledgment 👏
 
 - I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship 😊.
 
