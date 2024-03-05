@@ -35,7 +35,7 @@
 8. [Credits](#credits)
 9. [Acknowledgment](#acknowledgment)
 
-## Design & Planning: 🔬⚙
+## Design & Planning: 🔬⚙⚒
 
 ### User Stories
 First-time Visitor:
