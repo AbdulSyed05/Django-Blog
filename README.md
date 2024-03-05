@@ -170,7 +170,11 @@ Image of the database diagram for your project, you can name your database model
 Important part of your README!!!
 
 ### Google's Lighthouse Performance
+### Desktop
+
 ![Desktop Screenshot](media/images/Lighthouse%20Desktop.png)
+
+### Mobile
 
 ![Mobile Screenshot](media/images/Lighthouse%20Mobile.png)
 
