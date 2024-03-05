@@ -98,96 +98,103 @@ Image of the database diagram for your project, you can name your database model
 ## This section outlines the key features and functionalities of the Django Blog app.
 
 ### 1. User Authentication
-   - Users can create accounts, log in, and log out securely.
-   - Passwords are hashed for security.
 
-   ![Login](media/images/Login.png)
+- Users can create accounts, log in, and log out securely.
+- Passwords are hashed for security.
+
+![Login](media/images/Login.png)
 
 ### 2. CRUD Operations for Blog Posts
-   - **Create:** Authors can create new blog posts.
-   - **Read:** Users can view published blog posts.
-   - **Update:** Authors can edit and update existing posts.
-   - **Delete:** Authors can delete posts they created.
 
-   ![Crud](media/images/Crud.png)
-   ![Crud](media/images/Crud2.png)
+- **Create:** Authors can create new blog posts.
+- **Read:** Users can view published blog posts.
+- **Update:** Authors can edit and update existing posts.
+- **Delete:** Authors can delete posts they created.
+
+![Crud](media/images/Crud.png)
+![Crud](media/images/Crud2.png)
 
 ### 3. Navigation Bar
-   - User-friendly navigation bar for easy access to different sections of the app such as Sports, Politics, Technology, Business, Science, Health and Featured Cars.
-   - Dynamic links to categories, and other relevant pages.
 
-   ![Navigation](media/images/navigationbar.png)
+- User-friendly navigation bar for easy access to different sections of the app such as Sports, Politics, Technology, Business, Science, Health and Featured Cars.
+- Dynamic links to categories, and other relevant pages.
 
-### 4. Footer
-   - Informative footer providing links to important pages, contact information, etc.
+![Navigation](media/images/navigationbar.png)
 
+### 4. Sign Up Page
 
-### 5. Sign Up Page
-   - User-friendly registration page with necessary form fields.
+- User-friendly registration page with necessary form fields.
 
-   ![Register](media/images/register.png)
+![Register](media/images/register.png)
 
 
-### 6. Categories 
-   - Organize posts by assigning categories.
-   - Users can easily filter content based on categories.
+### 5. Categories 
 
-   ![Categories](media/images/Allcategories.png)
+- Organize posts by assigning categories.
+- Users can easily filter content based on categories.
 
-### 7. Commenting System
-   - Readers can leave comments on blog posts.
+![Categories](media/images/Allcategories.png)
 
-   ![Comments](media/images/Commentsection.png)
+### 6. Commenting System
 
-### 8. Responsive Design
-   - The app is built with a responsive design, ensuring a seamless experience across devices.
+- Readers can leave comments on blog posts.
+
+![Comments](media/images/Commentsection.png)
+
+### 7. Responsive Design
+
+- The app is built with a responsive design, ensuring a seamless experience across devices.
 
    ![Responsive](media/images/Responsive.png)
 
-### 9. Search Functionality
-   - Users can search for specific posts using a robust search feature.
+### 8. Search Functionality
 
-   ![Search](media/images/search.png)
+- Users can search for specific posts using a robust search feature.
 
-### 10. Social Media Integration
-   - Added Social Media links
+![Search](media/images/search.png)
+
+### 9. Social Media Integration
+
+- Added Social Media links
 
    ![Social](media/images/Socialmedia.png)
 
-### 11. Featured Posts
-   - Highlight a selected post as the "Featured Post" on the homepage.
-   - Attract attention to specific content or announcements.
+### 10. Featured Posts
+
+- Highlight a selected post as the "Featured Post" on the homepage.
+- Attract attention to specific content or announcements.
 
    ![Featured](media/images/featuredposts.png)
 
-### 12. Recent Articles
-   - Display a section showcasing the most recent blog articles.
-   - Allow users to stay updated on the latest content.
+### 11. Recent Articles
 
-   ![Recent](media/images/Recentarticles.png)
+- Display a section showcasing the most recent blog articles.
+- Allow users to stay updated on the latest content.
 
-   ### 13. All Categories
+![Recent](media/images/Recentarticles.png)
 
-   - Displays all categories
+### 12. All Categories
 
-   ![categories](media/images/Allcategories.png)
+- Displays all categories
 
-   ### 14. All Posts
+![categories](media/images/Allcategories.png)
 
-   - Displays all posts
+### 13. All Posts
 
-   ![posts](media/images/Allposts.png)
+- Displays all posts
 
-   ### 15. All Users
+![posts](media/images/Allposts.png)
 
-   - Displays all users
+### 14. All Users
 
-   ![Alluser](media/images/Allusers.png)
+- Displays all users
 
-   ### 16. Dashboard
+![Alluser](media/images/Allusers.png)
 
-   - Displays Dashboard including the categories
-   - Displays Users, Categories, Posts
+### 15. Dashboard
+
+- Displays Dashboard including the categories
+- Displays Users, Categories, Posts
 
    ![Dashboard](media/images/Dashboard.png)
 
