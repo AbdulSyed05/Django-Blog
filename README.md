@@ -189,6 +189,8 @@ Image of the database diagram for your project, you can name your database model
    - Displays Dashboard including the categories
    - Displays Users, Categories, Posts
 
+   ![Dashboard](media/images/Dashboard.png)
+
 ## Tools & Technologies Used
 - [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
 - [LucidChart](https://www.lucidchart.com/pages/) was used to design the database schema.
