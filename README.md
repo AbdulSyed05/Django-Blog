@@ -241,6 +241,12 @@ This website is deployed to Heroku from a GitHub repository, the following steps
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
 ## Acknowledgment
-Mention people who helped you with your project(mentor, colleagues...)
+- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship.
+
+- I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
+
+- I would also like to thank our cohort facilitator Marko, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
+
+- I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging and issues i had and also for general advices. 
 
 [def]: media/images/coolors.png
