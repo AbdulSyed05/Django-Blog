@@ -1,6 +1,4 @@
 <!-- Header Part -->
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,54 +8,96 @@
     <title>Django Blogs</title>
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+    <link href="/static/css/blog.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+</head>
 <body>
     <div class="container">
-      <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-4 pt-1">
-            <a class="blog-header-logo text-dark" href="/">Django Blog</a>
-          </div>
-          <div class="col-4">
-            <form action="{% url 'search' %}" method="GET">
-              <div class="input-group">
-                <input class="form-control" type="text" name="keyword" value="{{ keyword }}" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
-                <button type="submit" class="btn btn-warning" id="button-search" type="button">Go!</button>
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="blog-header-logo text-dark" href="/">Django Blog</a>
+                </div>
+                <div class="col-4">
+                    <form action="/search/" method="GET">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="keyword" value="" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search">
+                            <div class="input-group-append">
+                                <button class="btn btn-warning" id="button-search" type="submit">Go!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn btn-sm btn-warning" href="/login/">Login</a> &nbsp;
+                    <a class="btn btn-sm btn-outline-secondary" href="/register/">Register</a>
+                </div>
             </div>
-            </form>
-          </div>
-          <div class="col-4 d-flex justify-content-end align-items-center">
-            {% if not user.is_authenticated %}
-            <a class="btn btn-sm btn-warning" href="{% url 'login' %}">Login</a> &nbsp;
-            <a class="btn btn-sm btn-outline-secondary" href="{% url 'register' %}">Register</a>
-            {% else %}
-            <span><a href="{% url 'dashboard' %}">Dashboard</a></span>
-            &emsp;
-            
-            <span><a href="{% url 'logout' %}">Logout</a></span>
-            {% endif %}
-          </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 text-muted" href="/category/1/">Sports</a>
+                <a class="p-2 text-muted" href="/category/2/">Politics</a>
+                <a class="p-2 text-muted" href="/category/3/">Technology</a>
+                <a class="p-2 text-muted" href="/category/4/">Business</a>
+                <a class="p-2 text-muted" href="/category/6/">Science</a>
+                <a class="p-2 text-muted" href="/category/10/">Health</a>
+                <a class="p-2 text-muted" href="/category/11/">Featured Cars</a>
+            </nav>
         </div>
-      </header>
 
-      <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          {% for cat in categories %}
-          <a class="p-2 text-muted" href="{% url 'posts_by_category' cat.id %}">{{ cat.category_name }}</a>
-          {% endfor %}
-        </nav>
-      </div>
+        <!-- Main Content Part -->
+        
+        <!-- Featured Cars -->
+        <h3 class="text-uppercase text-warning" style="letter-spacing: 2px;">Featured Cars</h3>
+        <div class="row mb-2">
+            <!-- Your featured cars content goes here -->
+        </div>
 
-<!-- Main Content Part -->
-{% block content %}
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" style="background-image: url(/media/uploads/2024/02/27/Fitness_and_Wellness_vSv8oXJ.webp);background-blend-mode: overlay;background-size:cover;">
+            <div class="col-md-8 px-0">
+                <h1 class="display-4 font-italic">Is it worth running just once per week?</h1>
+                <p class="lead my-3">Mary Jennings: Just one run per week offers a multitude of positive benefits for your body, both physically and mentally. Stick with it as a …</p>
+                <p class="lead mb-0"><a href="/blogs/is-it-worth-running-just-once-per-week/" class="text-white font-weight-bold">Continue reading...</a></p>
+            </div>
+        </div>
 
-{% endblock %}
+        <!-- Featured Posts -->
+        <h3 class="text-uppercase text-warning" style="letter-spacing: 2px;">Featured Posts</h3>
+        <div class="row mb-2">
+            <!-- Your featured posts content goes here -->
+        </div>
 
-<!-- Footer Part -->
-<footer class="blog-footer">
-    <p>Developed By Abdul Syed for Code Institute's Portfolio Project 4 - 2024<a href="#"></a></p>
-  </footer>
-  </body>
-  </html>
+        <!-- Recent Articles -->
+        <h3 class="text-uppercase text-warning" style="letter-spacing: 2px;">Recent Articles</h3>
+        <div class="row">
+            <div class="col-md-8 blog-main">
+                <!-- Your recent articles content goes here -->
+            </div>
+
+            <aside class="col-md-4 blog-sidebar">
+                <div class="p-3 mb-3 bg-light rounded">
+                    <h4 class="font-italic">About Us</h4>
+                    <p class="mb-0">Welcome to my Blog, your digital haven for insightful exploration and meaningful content. We are committed to delivering a diverse range of perspectives, covering topics of Sports, Politics, Technology, Business, Science, and Health.</p>
+                </div>
+
+                <div class="p-3">
+                    <h4 class="font-italic">Follow Us</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="https://github.com/AbdulSyed05" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/abdul-syed-8a9414116/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    </ol>
+                </div>
+            </aside><!-- /.blog-sidebar -->
+        </div><!-- /.row -->
+
+        <!-- Footer Part -->
+        <footer class="blog-footer">
+            <p>Developed By Abdul Syed for Code Institute's Portfolio Project 4 - 2024<a href="#"></a></p>
+        </footer>
+    </div>
+</body>
+</html>
