@@ -252,10 +252,7 @@ Important part of your README!!!
 ![Mobile Screenshot](media/images/Lighthouse%20Mobile.png)
 
 ### Browser Compatibility
-Check compatability with different browsers (Firefox, Edge, Chrome)
-
-### Responsiveness
-Screenshots of the responsivness, pick few devices
+I have checked browser compatibility, My app works perfectly on these browsers. (Firefox, Edge, Chrome)
 
 ### Code Validation
 Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
