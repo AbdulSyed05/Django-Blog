@@ -24,7 +24,7 @@
             <form action="{% url 'search' %}" method="GET">
               <div class="input-group">
                 <input class="form-control" type="text" name="keyword" value="{{ keyword }}" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
-                <button type="submit" class="btn btn-warning" id="button-search" type="button">Go!</button>
+                <button type="submit" class="btn btn-warning" id="button-search">Go!</button>
             </div>
             </form>
           </div>
@@ -49,6 +49,7 @@
           {% endfor %}
         </nav>
       </div>
+    </div>
 
 <!-- Main Content Part -->
 {% block content %}
@@ -56,8 +57,8 @@
 {% endblock %}
 
 <!-- Footer Part -->
-<footer class="blog-footer">
-    <p>Developed By Abdul Syed for Code Institute's Portfolio Project 4 - 2024<a href="#"></a></p>
-  </footer>
-  </body>
-  </html>
+    <footer class="blog-footer">
+      <p>Developed By Abdul Syed for Code Institute's Portfolio Project 4 - 2024<a href="#"></a></p>
+    </footer>
+</body>
+</html>
