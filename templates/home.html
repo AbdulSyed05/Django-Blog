@@ -3,6 +3,7 @@
 {% block content %}    
 
 <!-- Featured Cars -->
+<h3 class="text-uppercase text-warning" style="letter-spacing: 2px;"></h3>
 <div class="row mb-2">
   {% for car in featured_cars %}
     <div class="col-md-6">
@@ -60,7 +61,7 @@
 
 <!-- Recent Articles -->
 <h3 class="text-uppercase text-warning" style="letter-spacing: 2px;">Recent Articles</h3>
-<main class="container p-0">
+<main role="main" class="container p-0">
   <div class="row">
     <div class="col-md-8 blog-main">
       {% for post in posts %}
