@@ -233,12 +233,12 @@ Image of the database diagram for your project, you can name your database model
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) is used to host this site.
 - [Github](https://en.wikipedia.org/wiki/GitHub) was used to store the code.
 - [Git](https://en.wikipedia.org/wiki/Git) was used for version control.
-- [Cloudinary](https://cloudinary.com/) was used to store the images.
+- [Cloudinary](https://cloudinary.com/) was used to store the images and online static file storage.
 - [ElephantSQL](https://www.elephantsql.com/) was used to store the database.
 - [Dbsqlite3](https://sqlitebrowser.org/) was also used to store the database.
 - [Grammarly](https://app.grammarly.com/) was used to check typography.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
+
 
 
 ## Testing
