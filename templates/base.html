@@ -23,8 +23,8 @@
           <div class="col-4">
             <form action="{% url 'search' %}" method="GET">
               <div class="input-group">
-                <input class="form-control" type="text" name="keyword" value="{{ keyword }}" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search">
-                <button type="submit" class="btn btn-warning" id="button-search">Go!</button>
+                <input class="form-control" type="text" name="keyword" value="{{ keyword }}" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                <button type="submit" class="btn btn-warning" id="button-search" type="button">Go!</button>
             </div>
             </form>
           </div>
@@ -40,8 +40,7 @@
             {% endif %}
           </div>
         </div>
-        </header>
-        
+      </header>
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
