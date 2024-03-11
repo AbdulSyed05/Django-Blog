@@ -5,9 +5,7 @@
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif
-    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
-  ;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 2.25rem;
 }
 
@@ -21,9 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif
-    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
-  ;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
 .display-4 {
@@ -74,7 +70,19 @@ h6 {
 /*
  * Footer
  */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 .blog-footer {
+  margin-top: auto;
+  /* Push the footer to the bottom */
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
@@ -84,14 +92,4 @@ h6 {
 
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
 }
