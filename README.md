@@ -199,6 +199,16 @@ First-time Visitor:
 
 Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
 
+### MoSCoW Prioritization
+
+I've decomposed my Epics into stories prior to prioritizing and implementing them.
+Using this approach, I was able to apply the MoSCow prioritization and labels to my user stories within the Issues tab.
+
+- **Must Have**: guaranteed to be delivered (*max 60% of stories*)
+- **Should Have**: adds significant value, but not vital (*the rest ~20% of stories*)
+- **Could Have**: has small impact if left out (*20% of stories*)
+
+
 ### Typography
 
 Explain font you've used for your project
@@ -212,8 +222,6 @@ Image of the database diagram for your project, you can name your database model
 
 
 ## Tools & Technologies Used 🧑‍💻
-- [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
-- [LucidChart](https://www.lucidchart.com/pages/) was used to design the database schema.
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
 - [CSS](https://en.wikipedia.org/wiki/CSS)  was used to style the site.
 - [Django](https://www.djangoproject.com/) was the framework that was used.
@@ -221,23 +229,17 @@ Image of the database diagram for your project, you can name your database model
 - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) was also used to style the site.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used for interactiveness.
 - [Gitpod](https://www.gitpod.io/about) was used to create this site and then push everything to github.
+- [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq) was used to create the wireframes.
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) is used to host this site.
 - [Github](https://en.wikipedia.org/wiki/GitHub) was used to store the code.
 - [Git](https://en.wikipedia.org/wiki/Git) was used for version control.
 - [Cloudinary](https://cloudinary.com/) was used to store the images.
 - [ElephantSQL](https://www.elephantsql.com/) was used to store the database.
+- [Dbsqlite3](https://sqlitebrowser.org/) was also used to store the database.
 - [Grammarly](https://app.grammarly.com/) was used to check typography.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Cloudinary](https://cloudinary.com) used for online static file storage.
 
-### MoSCoW Prioritization
-
-I've decomposed my Epics into stories prior to prioritizing and implementing them.
-Using this approach, I was able to apply the MoSCow prioritization and labels to my user stories within the Issues tab.
-
-- **Must Have**: guaranteed to be delivered (*max 60% of stories*)
-- **Should Have**: adds significant value, but not vital (*the rest ~20% of stories*)
-- **Could Have**: has small impact if left out (*20% of stories*)
 
 ## Testing
 Important part of your README!!!
@@ -271,8 +273,7 @@ Test all your features, you can use the same approach
 | &check; | description
 - attach screenshot
 
-### Automated testing
-If you created automated tests, insert screenshoots of your coverage and number of tests
+
 
 ## Bugs 🐛 😵
 List of bugs and how did you fix them, you can create simple table
@@ -320,25 +321,6 @@ To obtain your own Cloudinary API key, create an account and log in.
 - Once it has been connected scroll down to the **Manual Deploy** and click **Deploy branch** when it has deployed you will see a **view app** button below and this will bring you to your newly deployed app.
 - Please note that when deploying manually you will have to deploy after each change you make to your repository.
 
-
-## Credits 💛
-- [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
-
-- [W3schools](https://www.w3schools.com/) this was great for looking up forgotten **CSS** syntax and how to use it.
-
-- [CodeInstitute](https://learn.codeinstitute.net/) for their walkthrough project, which guided me with website build especially for publishing posts, comments and likes section which I code along with the video with few adjustments.
-
-- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) Corey Schafer 
- videos from **codemy**,  **djangolessons**
-
-- [Allauth](https://django-allauth.readthedocs.io/en/latest/) for their documentation which was helpfull in creating user authentication.
-
-- [Djangoforbeginners](https://djangoforbeginners.com/) for providing useful information abut basic concepts and setup for django.
-
-- [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
-
-- [Bootstrap](https://getbootstrap.com/) Used Bootstrap theme for my Blog app.
-
 ### Local Deployment
 
 This project can be cloned or forked in order to make a local copy on your own system.
@@ -370,6 +352,26 @@ Once the project is cloned or forked, in order to run it locally, you'll need to
 - Create a superuser: `python3 manage.py createsuperuser`
 - Load fixtures (if applicable): `python3 manage.py loaddata file-name.json` (repeat for each file)
 - Everything should be ready now, so run the Django app again: `python3 manage.py runserver`
+
+
+## Credits 💛
+- [Stack Overflow](https://stackoverflow.com/) is probably a developer's best resource, this provided me with many answers to my questions.
+
+- [W3schools](https://www.w3schools.com/) this was great for looking up forgotten **CSS** syntax and how to use it.
+
+- [CodeInstitute](https://learn.codeinstitute.net/) for their walkthrough project, which guided me with website build especially for publishing posts, comments and likes section which I code along with the video with few adjustments.
+
+- [youtube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) Corey Schafer 
+ videos from **codemy**,  **djangolessons**
+
+- [Allauth](https://django-allauth.readthedocs.io/en/latest/) for their documentation which was helpfull in creating user authentication.
+
+- [Djangoforbeginners](https://djangoforbeginners.com/) for providing useful information abut basic concepts and setup for django.
+
+- [Unsplash](https://unsplash.com/) some images were taken from unsplash and Irish Independet and Irish times news website.
+
+- [Bootstrap](https://getbootstrap.com/) Used Bootstrap theme for my Blog app.
+
 
 #### Cloning
 
