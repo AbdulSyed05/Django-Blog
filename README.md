@@ -234,6 +234,9 @@ I have checked browser compatibility, My app works perfectly on these browsers. 
 ### Code Validation
 Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
 
+![HTML](media/images/html%20validation.png)
+
+!(CSS)
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
