@@ -3,24 +3,23 @@ from django.contrib.auth.models import User
 from django.utils.text import slugify
 
 
-
-
 class Category(models.Model):
     category_name = models.CharField(max_length=50, unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         verbose_name_plural = 'categories'
 
     def __str__(self):
         return self.category_name
-    
+
 
 STATUS_CHOICES = (
     ("Draft", "Draft"),
     ("Published", "Published")
 )
+
 
 class Blog(models.Model):
     title = models.CharField(max_length=100)
@@ -38,6 +37,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
+
 class FeaturedCar(models.Model):
     model = models.CharField(max_length=100)
     slug = models.SlugField(max_length=150, unique=True, blank=True)
@@ -49,18 +49,17 @@ class FeaturedCar(models.Model):
     time_period = models.CharField(max_length=50)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="Draft")
     is_featured = models.BooleanField(default=False)
-   
 
     def save(self, *args, **kwargs):
         # Auto-generate slug when saving if it's not provided
         if not self.slug:
             self.slug = slugify(self.model)
         super().save(*args, **kwargs)
-        
+
     def __str__(self):
         return self.model
-    
-    
+
+
 class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     blog = models.ForeignKey(Blog, on_delete=models.CASCADE)
