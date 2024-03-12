@@ -238,7 +238,13 @@ Validate your code HTML, CSS, JS & Python (Validate all your templates, static f
 
 ![HTML](media/images/html%20validation.png)
 
-!(CSS)
+### Validated all CSS pages
+
+![CSS](media/images/CssValidation.png)
+
+### Validated all PYTHON pages
+
+
 ### Manual Testing user stories
 Test all your user stories, you an create table 
 User Story |  Test | Pass
