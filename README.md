@@ -174,7 +174,7 @@ First-time Visitor:
 
 ### GitHub Projects
 
-[GitHub Projects](https://github.com/AbdulSyed05/Django-Blog/projects?query=is%3Aopen)served as an Agile tool for this project.
+[GitHub Projects](https://github.com/AbdulSyed05/Django-Blog/projects?query=is%3Aopen) served as an Agile tool for this project.
 
 It isn't a specialized tool, but with the right tags and project creation/issue assignments, it was made to work.
 
