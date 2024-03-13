@@ -228,8 +228,12 @@ Important part of your README!!!
 
 ![Mobile Screenshot](media/images/Lighthouse%20Mobile.png)
 
-### Browser Compatibility
-I have checked browser compatibility, My app works perfectly on these browsers. (Firefox, Edge, Chrome)
+## Browser Compatibility
+|  Browser | Links  | Pages  | Responsivnes  | Form fields  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Mozila  | Works as expected| Loading pages no issue  |  Responsivness works as expected |  Works as expected |
+|  Chrome | Works as expected  |  Loading pages no issue | Responsivness works as expected  | Works as expected  |
+|  Edge |  Works as expected | Loading pages no issue  | Responsivness works as expected  |  Works as expected |
 
 ### Code Validation
 
