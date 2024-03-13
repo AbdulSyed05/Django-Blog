@@ -232,7 +232,8 @@ Important part of your README!!!
 I have checked browser compatibility, My app works perfectly on these browsers. (Firefox, Edge, Chrome)
 
 ### Code Validation
-Validate your code HTML, CSS, JS & Python (Validate all your templates, static files, views, forms, models, urls), display screenshots
+
+I have only attached 1 Image for HTML validation pages, reason being i have 18 HTML pages. 
 
 ### Validated all HTML pages
 
