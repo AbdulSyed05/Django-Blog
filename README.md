@@ -247,7 +247,7 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 ![CSS](media/images/CssValidation.png)
 
-### Validated all PYTHON pages
+### PEP8 CI Python Linter
 
 ![PYTHON](media/images/Urls.pyblog_main.png)
 
@@ -260,6 +260,8 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 ![PYTHON](media/images/views.pyblogs.png)
 
 ![PYTHON](media/images/views.pydashboard.png)
+
+### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project.
 
 ### Manual Testing user stories
 Test all your user stories, you an create table 
