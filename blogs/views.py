@@ -12,7 +12,7 @@ def posts_by_category(request, category_id):
     posts = Blog.objects.filter(status='Published', category=category_id)
 
     # Use get_object_or_404 when you want to show a 404
-    error page if the category does not exist
+    # error page if the category does not exist
     category = get_object_or_404(Category, pk=category_id)
 
     context = {
@@ -46,8 +46,7 @@ def blogs(request, slug):
 
 
 def home(request):
-    featured_cars = FeaturedCar.objects.filter
-    (is_featured=True, status='Published')
+    featured_cars = FeaturedCar.objects.filter(is_featured=True, status='Published')
     posts = Blog.objects.all()
 
     # Debug prints
