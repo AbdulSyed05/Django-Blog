@@ -244,6 +244,17 @@ Validate your code HTML, CSS, JS & Python (Validate all your templates, static f
 
 ### Validated all PYTHON pages
 
+![PYTHON](media/images/Urls.pyblog_main.png)
+
+![PYTHON](media/images/urls.pydashboard.png)
+
+![PYTHON](media/images/ursl.pyblogs.png)
+
+![PYTHON](media/images/views.pyblog_main.png)
+
+![PYTHON](media/images/views.pyblogs.png)
+
+![PYTHON](media/images/views.pydashboard.png)
 
 ### Manual Testing user stories
 Test all your user stories, you an create table 
