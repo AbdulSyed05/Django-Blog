@@ -172,7 +172,21 @@ First-time Visitor:
 
 ### Agile Methodology
 
-Explain agile approach to your project (itterations, user stories, tasks,acceptance criteria, labels, story points...) and insert screenshoots of your Kanban board 
+### GitHub Projects
+
+[GitHub Projects](https://github.com/AbdulSyed05/Django-Blog/projects?query=is%3Aopen)served as an Agile tool for this project.
+
+It isn't a specialized tool, but with the right tags and project creation/issue assignments, it was made to work.
+
+Through it, user stories were used to map out the development progress of the project using the basic Kanban board. It helped me to see the backlog of work I needed to complete and move tasks across as I worked on them before testing and signing off to finish them.
+
+![Screenshot](media/images/kanban.png)
+
+
+### GitHub Issues
+[GitHub Issues](https://github.com/AbdulSyed05/Django-Blog/issues) served as an another Agile tool.
+
+![Screenshot](media/images/Issues.png)
 
 ### MoSCoW Prioritization
 
