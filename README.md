@@ -285,8 +285,36 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 Test all your user stories, you an create table 
 User Story |  Test | Pass
 --- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- attach screenshot
+
+### User Registration and Authentication:
+
+- As a new user, I want to be able to register for an account on the blog.
+- As a registered user, I want to be able to log in to my account using my credentials.
+- As a registered user, I want to receive an error message if I enter incorrect login credentials.
+- Creating and Managing Blog Posts:
+
+- As a logged-in user, I want to be able to create a new blog post.
+- As a logged-in user, I want to be able to edit my existing blog posts.
+- As a logged-in user, I want to be able to delete my blog posts.
+- As a logged-in user, I want to see a confirmation prompt before deleting a blog post.
+- Viewing and Interacting with Blog Posts:
+
+- As a visitor, I want to be able to view the list of all published blog posts.
+- As a visitor, I want to be able to view the details of a specific blog post.
+- As a visitor, I want to be able to leave comments on a blog post.
+- As a logged-in user, I want to be able to delete comments that I've posted.
+
+### User Profile Management:
+
+- As a logged-in user, I want to be able to view and edit my profile information.
+- As a logged-in user, I want to be able to change my password.
+- As a logged-in user, I want to receive an error message if I enter an invalid email address while updating my profile.
+
+### Search Functionality:
+
+- As a visitor, I want to be able to search for specific blog posts using keywords.
+- As a visitor, I want the search results to be relevant and displayed in an organized manner.
+
 
 ### Manual Testing features
 Test all your features, you can use the same approach 
