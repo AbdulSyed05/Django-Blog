@@ -314,11 +314,59 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 
 ### Manual Testing features
-Test all your features, you can use the same approach 
-| Status | feature
-|:-------:|:--------|
-| &check; | description
-- attach screenshot
+
+### User Registration and Authentication:
+
+- Verify that new users can successfully register for an account.
+- Test user login functionality using valid credentials.
+- Attempt to login with invalid credentials it will not let you log in.
+- Creating and Managing Blog Posts:
+
+ ### Create a new blog post and verify it appears on the homepage.
+
+- Edit an existing blog post and ensure the changes are saved correctly.
+- Delete a blog post and confirm it is removed from the database.
+- Test the behavior of the blog post editor, ensuring it supports basic formatting and media embedding.
+- Verify that only authenticated users can create, edit, and delete blog posts.
+
+### Viewing and Interacting with Blog Posts:
+
+- Navigate to the homepage and verify that all published blog posts are displayed.
+- Click on a blog post title to view its details and confirm the full content is displayed.
+- Test the comment functionality by leaving a comment on a blog post.
+- Ensure comments are displayed beneath their respective blog posts.
+- Test pagination functionality if applicable, ensuring it works correctly for large numbers of blog posts.
+
+### User Profile Management:
+
+- Access the user profile page and verify that the user's information is displayed accurately.
+- Test the ability to update user profile information (e.g., username, email, profile picture).
+- Attempt to update profile information with invalid data and ensure appropriate error messages are displayed.
+
+### Search Functionality:
+
+- Test the search feature by entering keywords and verifying that relevant blog posts are returned.
+- Check for proper handling of edge cases (e.g., empty search queries, non-existent keywords).
+- Verify that search results are displayed in a clear and organized manner.
+
+### Security and Permissions:
+
+- Test for CSRF protection on form submissions.
+- Verify that unauthorized users cannot access restricted pages or perform restricted actions.
+- Check for proper authentication and authorization throughout the application.
+- Test for SQL injection vulnerabilities by attempting to inject malicious SQL queries.
+
+### Performance and Scalability:
+
+- Load test the application by simulating a large number of concurrent users.
+- Monitor server response times and resource usage during load testing.
+- Identify any performance bottlenecks and optimize database queries or code logic as needed.
+- Test the application's responsiveness under varying levels of traffic.
+
+### Cross-Browser and Cross-Device Compatibility:
+
+- Test the application's layout and functionality across different web browsers (e.g., Chrome, Firefox, Safari).
+- The application is responsive and displays correctly on different devices (e.g., desktop, tablet, mobile).
 
 
 
