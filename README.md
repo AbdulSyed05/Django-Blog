@@ -275,6 +275,10 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 ### Views.py Dashboard ![PYTHON](media/images/views.pydashboard.png)
 
+### models.py Blogs, As you can see 2 errors E501 Line too long I was able to get rid of the errors but when i did that it was causing Deployment issues because they were split in 2 lines so I had to leave those 2 lines. 
+
+![PYTHON](media/images/models.py%20blogs.png)
+
 ### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project.
 
 ### Manual Testing user stories
