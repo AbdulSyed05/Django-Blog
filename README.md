@@ -230,8 +230,7 @@ Image of the database diagram for your project, you can name your database model
 
 
 
-## Testing
-Important part of your README!!!
+## Testing Section below:
 
 ### Google's Lighthouse Performance
 ### Desktop
