@@ -370,7 +370,7 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 
 
-## Bugs 🐛 😵
+## Bugs 🐛 
 
 ### Bug: Registration Form Allows Duplicate Email Addresses
 
@@ -532,11 +532,11 @@ You can fork this repository by using the following steps:
 
 ## Acknowledgment 👏
 
-- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship 😊.
+- I would like to thank Juliaa Konovalova for being my guiding light in the world of Django. Your expertise and encouragement have made this coding journey an incredible experience. I am sincerely grateful for your mentorship .
 
 - I would like to thank Code Institutes Slack Community, and tutor support (Especially Joanne) as this helped me so much when I got stuck on part of my project.
 
-- I would also like to thank our cohort facilitator Marko Tot 😊, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
+- I would also like to thank our cohort facilitator Marko Tot, for answering any course-related questions I asked and for providing us with weekly guidance information about the project
 
 - I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging, Deployment also for general advices. 
 
