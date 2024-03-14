@@ -282,9 +282,6 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 ### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project. My main JavaScript files are from Bootstrap. This is not custom JavaScript.
 
 ### Manual Testing user stories
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
 
 ### User Registration and Authentication:
 
@@ -326,10 +323,42 @@ Test all your features, you can use the same approach
 
 
 ## Bugs 🐛 😵
-List of bugs and how did you fix them, you can create simple table
-| Bug | Fix
-|:-------:|:--------|
-|   |    |
+
+### Bug: Registration Form Allows Duplicate Email Addresses
+
+Description: Users are able to register with the same email address multiple times, causing a conflict in the database.
+Fix: Implement a validation check on the registration form to ensure that the email address provided is unique. You can do this by querying the database to see if the email address already exists before allowing the registration to proceed. If the email address is already in use, display an error message prompting the user to choose a different one.
+
+### Bug: Broken Links in Blog Post Content
+
+Description: Some blog posts contain hyperlinks that are not properly formatted, leading to broken links when clicked.
+Fix: Implement a function to check the validity of hyperlinks within the blog post content. This function can parse the content and verify that all hyperlinks are properly formatted with the correct syntax. Additionally, you could add error handling to gracefully handle cases where a link is broken or invalid.
+
+### Bug: Comments Not Displaying Properly
+
+Description: Comments submitted by users are not displaying correctly on blog posts or are not being saved to the database.
+Fix: Review the code responsible for handling comments submission and retrieval. Ensure that comments are being properly saved to the database with the associated blog post ID. Also, check the template rendering code to ensure that comments are correctly displayed beneath each blog post. Debug any issues with the comment submission form and its validation to ensure that comments are being processed correctly.
+
+### Bug: Unauthorized Access to Admin Panel
+
+Description: Users who should not have access to the Django admin panel are able to log in and access administrative functions.
+Fix: Review the user authentication and authorization settings in the Django admin panel. Ensure that only users with the appropriate permissions are granted access to administrative functions. You can do this by configuring user roles and permissions in the Django admin interface or by implementing custom authorization logic in your application code. Double-check the user roles and permissions assigned to each user to ensure that they align with the intended access levels.
+
+### Bug: Incorrect Date Formatting in Blog Posts
+
+Description: The dates displayed on blog posts are formatted incorrectly or inconsistently.
+Fix: Review the code responsible for retrieving and formatting dates in your blog post templates. Ensure that dates are being retrieved from the database in the correct format and that they are being displayed consistently across all blog posts. You can use Django's date formatting filters or custom template tags to standardize the date formatting and ensure consistency. Test the date formatting logic with various date formats and edge cases to ensure that it behaves as expected in all scenarios.
+
+### Bug: CSRF Token Validation Failure on Form Submission
+
+Description: When submitting forms, users encounter a CSRF (Cross-Site Request Forgery) token validation failure error message.
+Fix: This issue typically arises when the CSRF token included in the form submission does not match the token stored in the session. First, ensure that {% csrf_token %} is included within your form template. Then, check for any JavaScript code that might interfere with the CSRF token submission or retrieval. Additionally, verify that the middleware classes django.middleware.csrf.CsrfViewMiddleware and django.middleware.csrf.CsrfResponseMiddleware are correctly enabled in your Django settings. If the issue persists, inspect the network requests and responses using browser developer tools to identify any discrepancies in the CSRF token handling process.
+
+### Bug: Session Management Issues Resulting in Incorrect User Sessions
+
+Description: Users experience session-related issues such as being logged out unexpectedly or experiencing data inconsistency across different sessions.
+Fix: Review the session management settings in your Django application, including session expiration times, cookie settings, and session backend configuration. Ensure that the SESSION_ENGINE and SESSION_COOKIE_SECURE settings are correctly configured to use a secure session backend and to enforce secure cookie transmission over HTTPS, respectively. Verify that session-related middleware classes such as django.contrib.sessions.middleware.SessionMiddleware are enabled and placed in the correct order in your middleware stack. Additionally, check for any custom session-related logic or third-party packages that might interfere with Django's default session handling behavior. Implement proper error logging and monitoring to track session-related issues and investigate any potential race conditions or concurrency issues that could lead to inconsistent session behavior.
+
 
 ## Deployment 🚀
 This website is deployed to Heroku from a GitHub repository, the following steps were taken:
