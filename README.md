@@ -279,7 +279,7 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 ![PYTHON](media/images/models.py%20blogs.png)
 
-### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project.
+### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project. My main JavaScript files are from Bootstrap. This is not custom JavaScript.
 
 ### Manual Testing user stories
 Test all your user stories, you an create table 
