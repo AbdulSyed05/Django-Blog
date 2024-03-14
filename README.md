@@ -263,17 +263,17 @@ I have only attached 1 Image for HTML validation pages, reason being i have 18 H
 
 ### PEP8 CI Python Linter
 
-![PYTHON](media/images/Urls.pyblog_main.png)
+### urls.py Blog_main ![PYTHON](media/images/Urls.pyblog_main.png)
 
-![PYTHON](media/images/urls.pydashboard.png)
+### urls.py Dashboard ![PYTHON](media/images/urls.pydashboard.png)
 
-![PYTHON](media/images/ursl.pyblogs.png)
+### Urls.py Blogs ![PYTHON](media/images/ursl.pyblogs.png)
 
-![PYTHON](media/images/views.pyblog_main.png)
+### views.py Blog_main ![PYTHON](media/images/views.pyblog_main.png)
 
-![PYTHON](media/images/views.pyblogs.png)
+### views.py Blogs ![PYTHON](media/images/views.pyblogs.png)
 
-![PYTHON](media/images/views.pydashboard.png)
+### Views.py Dashboard ![PYTHON](media/images/views.pydashboard.png)
 
 ### JavaScript Validation I did not use JS for my PP4, I know there are some files in for JS i really dont understant where they came from. I was using help of my student colleague he ask me to installed AllAuth etc after installing those files JS files are in my project.
 
