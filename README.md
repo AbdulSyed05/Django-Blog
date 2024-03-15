@@ -207,8 +207,7 @@ Explain font you've used for your project
 ![Screenshot](media/images/coolors.png)
 
 ### DataBase Diagram
-Image of the database diagram for your project, you can name your database models as well and how they are connected
-
+![Screenshot](media/images/databasediagram.png)
 
 ## Tools & Technologies Used 🧑‍💻
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used for the mark up.
