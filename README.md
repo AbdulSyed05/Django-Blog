@@ -199,6 +199,18 @@ Using this approach, I was able to apply the MoSCow prioritization and labels to
 
 
 ### Typography
+ 
+- Fonts used for this project are Playfair Display, Georgia, Times New Roman, serif.
+
+- In selecting 'Playfair Display', Georgia, and 'Times New Roman' as the typography for my project, I aimed to create a balanced and visually appealing design while prioritizing readability and professionalism.
+
+- Playfair Display exudes elegance and sophistication, making it a perfect choice for headlines and titles. Its high contrast letterforms and graceful serifs capture attention and set a refined tone for the project.
+
+- For body text, I opted for Georgia due to its exceptional on-screen readability and classic serif design. Georgia's well-proportioned letterforms and clear serifs ensure comfortable reading experiences across various digital platforms, enhancing the accessibility of the content.
+
+- Finally, Times New Roman serves as a reliable and versatile fallback option, particularly for print materials or when a traditional and formal aesthetic is desired. Its familiarity and widespread use instill a sense of authority and professionalism, making it suitable for conveying information in a clear and authoritative manner.
+
+- Overall, by leveraging the distinct characteristics of 'Playfair Display', Georgia, and 'Times New Roman', all within the serif typography category, I aimed to create a cohesive and visually pleasing design that effectively communicates the project's message while prioritizing readability and aesthetic appeal.
 
 Explain font you've used for your project
 
