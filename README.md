@@ -548,4 +548,3 @@ You can fork this repository by using the following steps:
 
 - I would also like to express my gratitude to my fellow colleagues John, Angus who helped me with debugging, Deployment also for general advices. 
 
-*Go Back to the [top](#Django-Blog)*
