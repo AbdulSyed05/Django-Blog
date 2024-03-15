@@ -212,8 +212,6 @@ Using this approach, I was able to apply the MoSCow prioritization and labels to
 
 - Overall, by leveraging the distinct characteristics of 'Playfair Display', Georgia, and 'Times New Roman', all within the serif typography category, I aimed to create a cohesive and visually pleasing design that effectively communicates the project's message while prioritizing readability and aesthetic appeal.
 
-Explain font you've used for your project
-
 ### Colour Scheme
 
 ![Screenshot](media/images/coolors.png)
