@@ -6,6 +6,13 @@ from django.template.defaultfilters import slugify
 from django.contrib.auth.models import User
 
 
+
+@login_required(login_url='/login/')
+def restricted_view(request):
+    return render(request, 'restricted_template.html')
+
+
+
 @login_required(login_url='login')
 def dashboard(request):
     category_count = Category.objects.all().count()
