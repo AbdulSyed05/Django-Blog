@@ -4,6 +4,15 @@ from assignments.models import About
 from .forms import RegistrationForm
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib import auth
+from django.core.exceptions import ObjectDoesNotExist
+
+def home(request):
+    try:
+        about = About.objects.get()
+    except ObjectDoesNotExist:
+        # Handle the exception, maybe render a 404 page or a default message
+        about = None  # or whatever handling you prefer
+    return render(request, 'home.html', {'about': about})
 
 
 def home(request):
