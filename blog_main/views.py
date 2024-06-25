@@ -15,7 +15,7 @@ def home(request):
     # Fetch about us
     try:
         about = About.objects.get()
-    except About.ObjectDoesNotExist:
+    except About.DoesNotExist:
 
         about = None
 
