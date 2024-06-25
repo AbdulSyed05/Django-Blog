@@ -137,6 +137,17 @@ First-time Visitor:
 
 ![Dashboard](media/images/Dashboard.png)
 
+### 15. Non Logged in User page 
+
+![Nonloggedin](media/images/nonloggedinuserpage.png)
+
+
+### 16. Directed to Log in Page
+
+![Directedto login page](media/images/nonloggedinuserpage.png)
+
+
+
 ### Desktop Wireframes
 
 ![Homepage](media/images/Home%20Page.png)
