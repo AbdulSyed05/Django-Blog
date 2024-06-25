@@ -144,7 +144,7 @@ First-time Visitor:
 
 ### 16. Directed to Log in Page
 
-![Directedto login page](media/images/nonloggedinuserpage.png)
+![Directedto login page](media/images/directedtologinpage.png)
 
 
 
