@@ -49,6 +49,8 @@ First-time Visitor:
 
 ### 2. CRUD Operations for Blog Posts
 
+# CRUD functionality is Restricted to Admin only
+
 - **Create:** Authors can create new blog posts.
 - **Read:** Users can view published blog posts.
 - **Update:** Authors can edit and update existing posts.
