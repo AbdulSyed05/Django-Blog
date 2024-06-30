@@ -1,5 +1,5 @@
 from django import forms
-from blogs.models import Blog, Category
+from blogs.models import Blog, Category, Comment
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
@@ -18,6 +18,11 @@ class BlogPostForm(forms.ModelForm):
             'blog_body', 'status', 'is_featured'
         )
 
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['comment']
 
 class AddUserForm(UserCreationForm):
     class Meta:

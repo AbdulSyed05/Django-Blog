@@ -1,10 +1,12 @@
 import poplib
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, redirect, render
+from django.contrib.auth.decorators import login_required
 
 from .models import Blog, Category, Comment, FeaturedCar
 from django.db.models import Q
 from django.shortcuts import render
+from .forms import CommentForm 
 
 
 def posts_by_category(request, category_id):
@@ -30,7 +32,10 @@ def blogs(request, slug):
         comment.user = request.user
         comment.blog = single_blog
         comment.comment = request.POST['comment']
-        comment.save()
+        if comment.comment is not "":
+            comment.save()
+        else:
+            print('form is invalid-----')
         return HttpResponseRedirect(request.path_info)
 
     # Comments
@@ -44,6 +49,27 @@ def blogs(request, slug):
     }
     return render(request, 'blogs.html', context)
 
+@login_required
+def comment_edit(request, pk):
+    comment = get_object_or_404(Comment, pk=pk)
+    if request.method == 'POST':
+        form = CommentForm(request.POST, instance=comment)
+        if form.is_valid():
+            form.save()
+            return redirect('blogs', slug=comment.blog.slug)
+    else:
+        form = CommentForm(instance=comment)
+    return redirect('blogs', slug=comment.blog.slug)
+
+
+@login_required
+def comment_delete(request, pk):
+    comment = get_object_or_404(Comment, pk=pk)
+    blog_slug = comment.blog.slug
+    if request.method == 'POST':
+        comment.delete()
+        return redirect('blogs', slug=blog_slug)
+    return redirect('blogs', slug=blog_slug)
 
 def home(request):
     featured_cars = FeaturedCar.objects.filter(is_featured=True, status='Published')
