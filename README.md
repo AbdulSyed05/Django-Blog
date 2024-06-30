@@ -146,6 +146,14 @@ First-time Visitor:
 
 ![Directedto login page](media/images/directedtologinpage.png)
 
+### 17. Edit & Delete Funtionality for Frontend users
+
+![Screenshot](media/images/edit&delete.png)
+
+![Screenshot](media/images/edit.png)
+
+![Screenshot](media/images/Delete.png)
+
 
 
 ### Desktop Wireframes
