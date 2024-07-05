@@ -36,13 +36,16 @@ ALLOWED_HOSTS = [
     "djangobblog-4328bed47b45.herokuapp.com",
     "localhost",
     "127.0.0.1",
-    "8000-abdulsyed05-djangoblog-li662of6u5y.ws-eu114.gitpod.io"
+     '8000-abdulsyed05-djangoblog-r2s5dtfw67i.ws.codeinstitute-ide.net' 
 ]
+
 
 CSRF_TRUSTED_ORIGINS = [
-"https://8000-abdulsyed05-djangoblog-li662of6u5y.ws-eu114.gitpod.io" 
-
+    'https://8000-abdulsyed05-djangoblog-r2s5dtfw67i.ws.codeinstitute-ide.net'
 ]
+
+
+
 
 
 # Application definition
@@ -178,4 +181,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
-
+DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
